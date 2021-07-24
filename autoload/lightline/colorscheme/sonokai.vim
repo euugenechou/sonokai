@@ -11,14 +11,14 @@ let s:configuration = sonokai#get_configuration()
 let s:palette = sonokai#get_palette(s:configuration.style)
 "}}}
 " Definition: {{{
-let s:tab_l_fg = s:palette.fg
-let s:tab_l_bg = s:palette.bg4
-let s:tab_r_fg = s:palette.red
-let s:tab_r_bg = s:palette.bg4
-let s:tab_sel_fg = s:palette.bg0
-let s:tab_sel_bg = s:palette.bg_red
+let s:tab_l_fg = s:palette.white_dim
+let s:tab_l_bg = s:palette.bg0
+let s:tab_r_fg = s:palette.yellow
+let s:tab_r_bg = s:palette.bg0
+let s:tab_sel_fg = s:palette.yellow
+let s:tab_sel_bg = s:palette.bg0
 let s:tab_middle_fg = s:palette.fg
-let s:tab_middle_bg = s:palette.bg1
+let s:tab_middle_bg = s:palette.bg0
 
 let s:warningfg = s:palette.bg0
 let s:warningbg = s:palette.yellow
@@ -133,10 +133,10 @@ let s:p.inactive.left = [ [ s:inactive_l1_fg, s:inactive_l1_bg, 'bold' ], [ s:in
 let s:p.inactive.middle = [ [ s:inactive_middle_fg, s:inactive_middle_bg, 'bold' ] ]
 let s:p.inactive.right = [ [ s:inactive_r1_fg, s:inactive_r1_bg, 'bold' ], [ s:inactive_r2_fg, s:inactive_r2_bg, 'bold' ] ]
 
-let s:p.tabline.left = [ [ s:tab_l_fg, s:tab_l_bg] ]
-let s:p.tabline.right = [ [ s:tab_r_fg, s:tab_r_bg] ]
+let s:p.tabline.left = [ [ s:tab_l_fg, s:tab_l_bg, 'bold' ] ]
+let s:p.tabline.right = [ [ s:tab_r_fg, s:tab_r_bg, 'bold' ] ]
 let s:p.tabline.tabsel = [ [ s:tab_sel_fg, s:tab_sel_bg, 'bold' ] ]
-let s:p.tabline.middle = [ [ s:tab_middle_fg, s:tab_middle_bg] ]
+let s:p.tabline.middle = [ [ s:tab_middle_fg, s:tab_middle_bg, 'bold' ] ]
 
 let s:p.normal.error = [ [ s:errorfg, s:errorbg ] ]
 let s:p.normal.warning = [ [ s:warningfg, s:warningbg ] ]
