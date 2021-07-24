@@ -54,6 +54,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'purple':     ['#b39df3',   '176'],
           \ 'grey':       ['#7f8490',   '246'],
           \ 'grey_dim':   ['#4f5462',   '240'],
+          \ 'white_dim':  ['#b8b8b8',   '250'],
           \ 'none':       ['NONE',      'NONE']
           \ }
   elseif a:style ==# 'shusia'
@@ -80,6 +81,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'purple':     ['#ab9df2',   '176'],
           \ 'grey':       ['#848089',   '246'],
           \ 'grey_dim':   ['#595660',   '240'],
+          \ 'white_dim':  ['#b8b8b8',   '250'],
           \ 'none':       ['NONE',      'NONE']
           \ }
   elseif a:style ==# 'andromeda'
@@ -106,6 +108,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'purple':     ['#bb97ee',   '176'],
           \ 'grey':       ['#7e8294',   '246'],
           \ 'grey_dim':   ['#4c516d',   '240'],
+          \ 'white_dim':  ['#b8b8b8',   '250'],
           \ 'none':       ['NONE',      'NONE']
           \ }
   elseif a:style ==# 'atlantis'
@@ -132,6 +135,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'purple':     ['#ba9cf3',   '176'],
           \ 'grey':       ['#828a9a',   '246'],
           \ 'grey_dim':   ['#4f5a6d',   '240'],
+          \ 'white_dim':  ['#b8b8b8',   '250'],
           \ 'none':       ['NONE',      'NONE']
           \ }
   elseif a:style ==# 'maia'
@@ -158,6 +162,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'purple':     ['#baa0f8',   '176'],
           \ 'grey':       ['#82878b',   '246'],
           \ 'grey_dim':   ['#4f5b65',   '240'],
+          \ 'white_dim':  ['#b8b8b8',   '250'],
           \ 'none':       ['NONE',      'NONE']
           \ }
   elseif a:style ==# 'espresso'
@@ -184,6 +189,7 @@ function! sonokai#get_palette(style) "{{{
           \ 'purple':     ['#9fa0e1',   '176'],
           \ 'grey':       ['#90817b',   '246'],
           \ 'grey_dim':   ['#60524d',   '240'],
+          \ 'white_dim':  ['#b8b8b8',   '250'],
           \ 'none':       ['NONE',      'NONE']
           \ }
   endif
